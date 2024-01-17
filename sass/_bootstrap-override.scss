@@ -1,0 +1,14 @@
+@import '../bootstrap/scss/functions';
+@import '../bootstrap/scss/variables';
+
+// COLORS
+
+$new-theme-colors: (
+  // "color-name": #color
+  'purple': rgb(121, 22, 121),
+  'blue': rgb(42, 42, 230)
+);
+
+$theme-colors: map-merge($theme-colors, $new-theme-colors);
+
+@import '../bootstrap/scss/bootstrap';
